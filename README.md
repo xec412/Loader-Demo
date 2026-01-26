@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/github_image" width="900">
+  <img src="assets/github_image.png" width="900">
 </p>
 # Loader-Demo
 
