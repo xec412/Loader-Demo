@@ -44,6 +44,7 @@ Debug builds are supported but include verbose output.
 - `ChaCha20.c`
 - `ChaCha20.h`
 - `Structs.h`
+- -`hells.asm`
 
 These files contain:
 - The ChaCha20 implementation used for payload decryption
@@ -63,7 +64,7 @@ Make sure all of these files are included in the Visual Studio project and **not
 
 - The project is intentionally **CRT-free**  
   Do not enable MSVCRT or additional runtime dependencies.
-- Removing or excluding `ChaCha20.c`, `ChaCha20.h`, or `Structs.h` will result in compilation or linker errors.
+- Removing or excluding `ChaCha20.c`, `ChaCha20.h`, `hells.asm` or `Structs.h` will result in compilation or linker errors.
 - The demo payload used is non-operational (Calculator) and intended purely for demonstration.
 
 ---
