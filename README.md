@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/github_image" width="900">
+</p>
 # Loader-Demo
 
 **Windows internals–focused loader demo built with low-level C**
