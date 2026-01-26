@@ -11,8 +11,7 @@ This repository is intended to demonstrate understanding of advanced Windows con
 
 ## Features
 
-- ChaCha20-based payload encryption
-- UUID-based payload handling
+- ChaCha20-based payload encryption mixed with Uuid Obfuscation
 - IAT hiding and camouflage techniques
 - Direct system calls using Hell’s Gate–style resolution
 - Custom string hashing for API resolution
