@@ -3,7 +3,29 @@
 </p>
 # Loader-Demo
 
+## What This Project Demonstrates
+
+This project demonstrates hands-on experience with:
+
+- Windows user-mode internals and PE loading concepts
+- Low-level API resolution and syscall invocation
+- Understanding of EDR / AV userland monitoring surfaces
+- Secure handling of in-memory data and obfuscation techniques
+- Writing CRT-free, minimal Windows binaries
+
+- ## Defensive Relevance
+
+The techniques demonstrated here are commonly discussed in the context of offensive tooling,
+but understanding them is critical for:
+
+- EDR detection engineering
+- Malware analysis and reverse engineering
+- Windows security research
+
+
+
 **Windows internals–focused loader demo built with low-level C**
+The term “loader” is used here in an academic sense to describe PE loading and execution mechanisms.
 
 Loader-Demo is a Windows user-mode research project developed for **educational and demonstration purposes**.  
 The project focuses on exploring **low-level Windows internals**, process interaction mechanisms, and loader-related techniques in a controlled, non-operational context.
@@ -74,16 +96,8 @@ Make sure all of these files are included in the Visual Studio project and **not
 
 ## Disclaimer
 
-⚠️ **IMPORTANT NOTICE**
-
-This project is provided strictly for **educational and research purposes only**.
-
-- The code is intended to demonstrate Windows internals, loader behavior, and low-level programming concepts.
-- It is **not intended for production use**.
-- Any misuse of this code for malicious or illegal activities is strictly prohibited.
-- The author takes **no responsibility** for damages, data loss, legal consequences, or misuse resulting from the use of this project.
-
-By accessing or using this repository, you acknowledge that you are solely responsible for how the code is used and agree to comply with all applicable laws and regulations.
+This repository is intended solely for educational and security research purposes.
+It demonstrates Windows internals and low-level programming concepts and is not intended for real-world deployment or malicious use.
 
 ---
 
